@@ -1,0 +1,65 @@
+# Версия docker-compose
+version: '3.0'
+# Список наших сервисов (контейнеров)
+services:
+    db:
+        build:
+            context: ./mariadb
+        volumes:
+            - ./.data/db:/var/lib/mysql
+            - ./logs/mariadb:/var/log/mysql
+            - ./mysql-files:/mariadb/docker-entrypoint-initdb.d
+        environment:
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+        networks:
+            - default
+# Монтируем php-fpm
+    php-fpm:
+        build:
+            context: ./php7-fpm
+            args:
+                TIMEZONE: ${TIMEZONE}
+        volumes:
+            - ${APP_PATH}:/var/www/app
+        environment:
+            DB_HOST: db
+            DB_PORT: 3306
+            DB_DATABASE: ${MYSQL_DATABASE}
+            DB_USERNAME: ${MYSQL_USER}
+            DB_PASSWORD: ${MYSQL_PASSWORD}
+        depends_on:
+            - db
+        networks:
+            - default
+# Монтируем nginx-сервер
+    nginx:
+        build:
+            context: ./nginx
+            args:
+                - 'php-fpm'
+                - '9000'
+        volumes:
+            - ${APP_PATH}:/var/www/app
+            - ./logs/nginx/:/var/log/nginx
+        ports:
+            - "80:80"
+#            - "443:443"
+        depends_on:
+            - php-fpm
+        networks:
+            - default
+# PHPMYADMIN
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        environment:
+            PMA_HOST: db
+            PMA_PORT: 3306
+        ports:
+            - '8181:80'
+# --- --- ---
+networks:
+    default:
+        driver: bridge

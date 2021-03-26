@@ -1,0 +1,18 @@
+2021/03/25 14:11:37 [error] 23#23: *11 open() "/var/www/test.prj/phpmyadmin" failed (2: No such file or directory), client: 172.25.0.1, server: test.prj, request: "GET /phpmyadmin HTTP/1.1", host: "localhost"
+2021/03/25 20:02:53 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/nginx.conf:11
+2021/03/26 08:50:56 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:00:01 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:01:45 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:03:02 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:07:17 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:08:29 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:12:39 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:15:10 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:18:45 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:21:24 [emerg] 1#1: getpwnam("www") failed in /etc/nginx/nginx.conf:1
+2021/03/26 09:23:01 [emerg] 1#1: no port in upstream "php-upstream" in /etc/nginx/sites-available/default.conf:14
+2021/03/26 09:24:33 [emerg] 1#1: no port in upstream "php-upstream" in /etc/nginx/sites-available/default.conf:14
+2021/03/26 09:32:45 [emerg] 1#1: no port in upstream "php-upstream" in /etc/nginx/sites-available/default.conf:14
+2021/03/26 10:51:20 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 10:52:32 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1
+2021/03/26 11:11:25 [emerg] 1#1: getpwnam("www-data") failed in /etc/nginx/nginx.conf:1

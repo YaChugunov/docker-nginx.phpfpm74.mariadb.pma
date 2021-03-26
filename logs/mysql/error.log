@@ -1,0 +1,378 @@
+2021-03-25T13:44:16.559973Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.23) initializing of server in progress as process 45
+2021-03-25T13:44:16.595290Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T13:44:19.216754Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T13:44:22.798743Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2021-03-25T13:44:27.259872Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:44:27.259950Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 90
+2021-03-25T13:44:27.296812Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T13:44:28.247758Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T13:44:28.442977Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T13:44:28.664623Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T13:44:28.665767Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T13:44:28.692024Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:44:28.766754Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2021-03-25T13:44:34.493873Z 11 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T13:44:36.531291Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T13:44:37.817747Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:44:37.817819Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T13:44:37.844373Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T13:44:39.135656Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T13:44:39.308323Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T13:44:39.448661Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T13:44:39.449962Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T13:44:39.472843Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:44:39.559304Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T13:48:22.507778Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T13:48:23.496667Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T13:49:27.751939Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:49:27.752073Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T13:49:27.823748Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T13:49:28.900802Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T13:49:29.063874Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T13:49:29.185154Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T13:49:29.186394Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T13:49:29.212073Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:49:29.281036Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T13:49:50.213732Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T13:49:51.638444Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T13:50:36.214970Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:50:36.215116Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T13:50:36.350331Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T13:50:38.600518Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T13:50:38.921969Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T13:50:39.110251Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T13:50:39.111823Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T13:50:39.146461Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T13:50:39.251979Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T14:13:59.684340Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T14:14:00.757198Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T14:14:07.800922Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T14:14:07.801117Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T14:14:07.899496Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T14:14:09.577936Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T14:14:09.829428Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T14:14:10.079740Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T14:14:10.082325Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T14:14:10.135756Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T14:14:10.304727Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T14:17:06.125055Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T14:17:07.006961Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T14:17:19.622862Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T14:17:19.622974Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T14:17:19.632726Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-03-25T14:17:19.675349Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T14:17:20.738861Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T14:17:20.748268Z 1 [ERROR] [MY-011087] [Server] Different lower_case_table_names settings for server ('2') and data dictionary ('0').
+2021-03-25T14:17:20.749080Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-03-25T14:17:20.749775Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-03-25T14:17:21.330569Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25 14:18:29 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 14:18:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 14:18:29 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 14:18:29 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 14:18:29 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 14:18:29 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 14:18:29 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 14:18:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 14:18:29 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 14:18:29 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 14:18:29 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 14:18:29 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 14:18:29 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 14:18:29 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 14:18:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 14:18:29 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 14:18:29 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 14:18:29 0 [ERROR] Aborting
+2021-03-25 14:19:03 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 14:19:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 14:19:03 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 14:19:03 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 14:19:03 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 14:19:03 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 14:19:03 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 14:19:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 14:19:03 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 14:19:03 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 14:19:03 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 14:19:03 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 14:19:04 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 14:19:04 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 14:19:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 14:19:04 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 14:19:04 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 14:19:04 0 [ERROR] Aborting
+2021-03-25 14:21:41 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 14:21:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 14:21:41 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 14:21:41 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 14:21:41 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 14:21:41 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 14:21:41 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 14:21:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 14:21:41 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 14:21:41 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 14:21:41 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 14:21:41 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 14:21:41 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 14:21:41 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 14:21:41 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 14:21:41 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 14:21:41 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 14:21:41 0 [ERROR] Aborting
+2021-03-25 14:29:18 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 14:29:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 14:29:18 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 14:29:18 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 14:29:18 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 14:29:18 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 14:29:18 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 14:29:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 14:29:18 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 14:29:18 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 14:29:18 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 14:29:18 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 14:29:18 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 14:29:18 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 14:29:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 14:29:18 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 14:29:18 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 14:29:18 0 [ERROR] Aborting
+2021-03-25 18:24:14 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 18:24:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 18:24:14 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 18:24:14 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 18:24:14 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 18:24:14 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 18:24:14 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 18:24:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 18:24:14 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 18:24:14 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 18:24:14 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 18:24:14 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 18:24:14 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 18:24:14 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 18:24:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 18:24:14 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 18:24:14 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 18:24:14 0 [ERROR] Aborting
+2021-03-25 18:38:55 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 18:38:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 18:38:55 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 18:38:55 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 18:38:55 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 18:38:56 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 18:38:56 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 18:38:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 18:38:56 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 18:38:56 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 18:38:56 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 18:38:56 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 18:38:56 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 18:38:56 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 18:38:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 18:38:56 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 18:38:56 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 18:38:56 0 [ERROR] Aborting
+2021-03-25 18:42:38 0 [Note] InnoDB: Uses event mutexes
+2021-03-25 18:42:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-25 18:42:38 0 [Note] InnoDB: Number of pools: 1
+2021-03-25 18:42:38 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-25 18:42:38 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-25 18:42:38 0 [Note] InnoDB: Using Linux native AIO
+2021-03-25 18:42:38 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-25 18:42:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-25 18:42:38 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-25 18:42:38 0 [ERROR] InnoDB: Invalid flags 0x4800 in ./ibdata1
+2021-03-25 18:42:38 0 [ERROR] InnoDB: Plugin initialization aborted with error Data structure corruption
+2021-03-25 18:42:38 0 [Note] InnoDB: Starting shutdown...
+2021-03-25 18:42:38 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2021-03-25 18:42:38 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2021-03-25 18:42:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-25 18:42:38 0 [ERROR] Could not open mysql.plugin table: "Table 'mysql.plugin' doesn't exist". Some plugins may be not loaded
+2021-03-25 18:42:38 0 [Warning] 'default-authentication-plugin' is MySQL 5.6 / 5.7 compatible option. To be implemented in later versions.
+2021-03-25 18:42:38 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2021-03-25 18:42:38 0 [ERROR] Aborting
+2021-03-25T18:43:29.620011Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T18:43:29.620193Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T18:43:29.736725Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T18:43:31.971216Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T18:43:32.390256Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T18:43:32.556402Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T18:43:32.557406Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T18:43:32.578755Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T18:43:32.701665Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T18:43:43.226927Z 8 [Warning] [MY-010055] [Server] IP address '172.27.0.1' could not be resolved: Name or service not known
+2021-03-25T18:46:12.980563Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T18:46:14.060099Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T18:46:25.937395Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T18:46:25.937666Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T18:46:26.055635Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T18:46:28.170193Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T18:46:28.523054Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T18:46:28.675968Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T18:46:28.677418Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T18:46:28.707075Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T18:46:28.884544Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T19:03:01.474305Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T19:03:02.664530Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T19:04:58.423302Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:04:58.423471Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T19:04:58.528779Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T19:05:01.484944Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T19:05:01.927097Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T19:05:02.145647Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T19:05:02.148870Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T19:05:02.214011Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:05:02.527750Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T19:12:44.378431Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T19:12:45.931755Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T19:13:00.601433Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:13:00.601592Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T19:13:00.609802Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2021-03-25T19:13:00.659063Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T19:13:02.648576Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T19:13:02.664108Z 1 [ERROR] [MY-011087] [Server] Different lower_case_table_names settings for server ('2') and data dictionary ('0').
+2021-03-25T19:13:02.665152Z 0 [ERROR] [MY-010020] [Server] Data Dictionary initialization failed.
+2021-03-25T19:13:02.666038Z 0 [ERROR] [MY-010119] [Server] Aborting
+2021-03-25T19:13:03.353294Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T19:20:53.380962Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:20:53.381890Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T19:20:53.472762Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T19:20:56.629642Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T19:20:57.253189Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T19:20:57.627818Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T19:20:57.631541Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T19:20:57.699849Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:20:57.906780Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T19:37:41.192089Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T19:37:41.986643Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T19:39:06.231157Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:39:06.231318Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T19:39:06.301793Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T19:39:09.006892Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T19:39:09.433418Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T19:39:09.604184Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T19:39:09.605392Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T19:39:09.628359Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T19:39:09.743050Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-25T19:50:31.589151Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-25T19:50:32.765024Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-25T20:02:51.309828Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T20:02:51.309967Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-25T20:02:51.402453Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-25T20:02:53.907055Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-25T20:02:54.433773Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-25T20:02:54.630603Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-25T20:02:54.633033Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-25T20:02:54.675874Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-25T20:02:54.841285Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-26T07:14:33.674986Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-26T07:14:34.357092Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-26T07:21:23.174485Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:21:23.174680Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-26T07:21:23.246422Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-26T07:21:24.670255Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-26T07:21:24.979687Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-26T07:21:25.179992Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-26T07:21:25.181422Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-26T07:21:25.210322Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:21:25.338885Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-26T07:22:52.515946Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-26T07:22:53.646389Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-26T07:23:05.070648Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:23:05.070925Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-26T07:23:05.150916Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-26T07:23:07.613369Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-26T07:23:07.966333Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-26T07:23:08.328831Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-26T07:23:08.330670Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-26T07:23:08.362102Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:23:08.508682Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-26T07:25:00.445757Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-26T07:25:01.660152Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-26T07:25:08.461978Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:25:08.462265Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-26T07:25:08.537308Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-26T07:25:10.290444Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-26T07:25:10.775030Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-26T07:25:11.018897Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-26T07:25:11.020161Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-26T07:25:11.040193Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:25:11.156042Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-26T07:43:16.209077Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-26T07:43:17.155299Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-26T07:45:11.821748Z 0 [Warning] [MY-010101] [Server] Insecure configuration for --secure-file-priv: Location is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:45:11.827061Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.23) starting as process 1
+2021-03-26T07:45:12.016292Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-03-26T07:45:14.865641Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-03-26T07:45:15.279987Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2021-03-26T07:45:15.505726Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2021-03-26T07:45:15.507932Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2021-03-26T07:45:15.553812Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/lib/mysql' in the path is accessible to all OS users. Consider choosing a different directory.
+2021-03-26T07:45:15.711239Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2021-03-26T08:01:48.186926Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.23).
+2021-03-26T08:01:49.696656Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.23)  MySQL Community Server - GPL.
+2021-03-26  8:50:56 0 [Note] InnoDB: Uses event mutexes
+2021-03-26  8:50:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-26  8:50:56 0 [Note] InnoDB: Number of pools: 1
+2021-03-26  8:50:56 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-26  8:50:56 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-26  8:50:56 0 [Note] InnoDB: Using Linux native AIO
+2021-03-26  8:50:57 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-26  8:50:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-26  8:50:57 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-26  8:50:57 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-26  8:50:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-26  8:50:57 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-26  8:50:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-26  8:50:57 0 [Note] InnoDB: 10.5.9 started; log sequence number 45106; transaction id 20
+2021-03-26  8:50:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-26  8:50:57 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-26  8:50:57 0 [Note] InnoDB: Buffer pool(s) load completed at 210326  8:50:57
+2021-03-26  8:50:57 0 [Note] Reading of all Master_info entries succeeded
+2021-03-26  8:50:57 0 [Note] Added new Master_info '' to hash table
+2021-03-26  8:50:57 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 0  mariadb.org binary distribution
+2021-03-26  8:51:03 0 [Note] mysqld (initiated by: root[root] @ localhost []): Normal shutdown
+2021-03-26  8:51:03 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-03-26  8:51:03 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-03-26  8:51:03 0 [Note] InnoDB: Starting shutdown...
+2021-03-26  8:51:03 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-03-26  8:51:03 0 [Note] InnoDB: Buffer pool(s) dump completed at 210326  8:51:03
+2021-03-26  8:51:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-26  8:51:03 0 [Note] InnoDB: Shutdown completed; log sequence number 45118; transaction id 21
+2021-03-26  8:51:03 0 [Note] mysqld: Shutdown complete
+
+2021-03-26  8:51:04 0 [Note] InnoDB: Uses event mutexes
+2021-03-26  8:51:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-03-26  8:51:04 0 [Note] InnoDB: Number of pools: 1
+2021-03-26  8:51:04 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-03-26  8:51:04 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-03-26  8:51:04 0 [Note] InnoDB: Using Linux native AIO
+2021-03-26  8:51:04 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2021-03-26  8:51:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-03-26  8:51:04 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-03-26  8:51:04 0 [Note] InnoDB: 128 rollback segments are active.
+2021-03-26  8:51:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-03-26  8:51:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-03-26  8:51:04 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-03-26  8:51:04 0 [Note] InnoDB: 10.5.9 started; log sequence number 45118; transaction id 20
+2021-03-26  8:51:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-03-26  8:51:04 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-03-26  8:51:04 0 [Note] InnoDB: Buffer pool(s) load completed at 210326  8:51:04
+2021-03-26  8:51:04 0 [Note] Server socket created on IP: '127.0.0.1'.
+2021-03-26  8:51:04 0 [Note] Reading of all Master_info entries succeeded
+2021-03-26  8:51:04 0 [Note] Added new Master_info '' to hash table
+2021-03-26  8:51:04 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal-log'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-03-26  8:53:06 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-03-26  8:53:06 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-03-26  8:53:06 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-03-26  8:53:06 0 [Note] InnoDB: Starting shutdown...
+2021-03-26  8:53:06 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-03-26  8:53:06 0 [Note] InnoDB: Buffer pool(s) dump completed at 210326  8:53:06
+2021-03-26  8:53:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-03-26  8:53:06 0 [Note] InnoDB: Shutdown completed; log sequence number 45130; transaction id 21
+2021-03-26  8:53:06 0 [Note] mysqld: Shutdown complete
+
