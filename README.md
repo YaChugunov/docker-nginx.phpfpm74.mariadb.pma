@@ -1,5 +1,8 @@
 ### Сборка nginx + php-fpm7.4 + mariaDB + phpMyAdmin
 Собираем контейнер
-		docker-compose up
+
+    docker-compose up
+
 или
-		docker-compose up -d
+
+    docker-compose up -d
